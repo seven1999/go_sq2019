@@ -1,0 +1,29 @@
+Testsuit: Fetch Sale Orders List
+description: Fetch Sale Orders List
+TestCases:
+  -
+    caseName: 查询成功
+    input:
+      key1: inputKEY1
+      key2: inputKEY2
+    output:
+      key1:
+      key2:
+    param:
+      pageno: 1
+      count: 10
+      platformId: 1
+      lmNumber: SF39193320290
+      status: 1
+      shopId: ID211-fetch_sale_orderlist
+      from: 1546327958
+      to: 1558510359
+      orderId: SA201903103921
+      courier: Shopee Express
+      mykey:                        # {"mykey": {"key01":[{"vv":22, "kk":33}, {"vv":22,"kk":33}], "key02": 222}     mykey.key01.1.vv
+        key01:
+          - vv: 22
+            kk: 99
+          - vv: 33
+            kk: 999
+        key02: TT222
